@@ -1,0 +1,22 @@
+ai_navi_portal/
+├─ login.html
+├─ main.html
+├─ manual.html
+├─ header.html
+├─ mapcoord.htm
+├─ productcheck.html
+├─ header.html
+├─ assets/
+│   ├─ style.css
+│   ├─ login.js
+│   └─ header.js
+│   └─ mapcoord.js
+│   └─ mapcoord.css
+│   └─ productcheck.js
+│   └─ productcheck.css
+└─ data/
+　   ├─ document/
+　   ├─ map/
+　   ├─ movie/
+　   ├─ csv/
+　   └─ other/
