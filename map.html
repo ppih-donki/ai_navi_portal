@@ -33,31 +33,64 @@
       border: none;
       border-radius: 4px;
     }
+    /* アクセスカウント画像用 */
+    .access-count {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 16px auto;
+    }
+    /* 画像上のタイトル用（左寄せ） */
+    .access-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-align: left;
+      margin: 12px 0 4px 0;
+    }
   </style>
 </head>
 <body>
-<body>
   <div id="header"></div>
   <main class="main-content">
-    <h1>フロアMAP画像</h1>
-  <div id="header"></div>
-  <main class="main-content">
+    <h1>AIーMAPアクセス数、フロアMAP画像</h1>
+
+    <!-- ここから：左寄せタイトル＋画像 -->
+    <div class="access-title">店舗別アクセス数</div>
+    <img
+      src="data/pics/access_count.jpg"
+      alt="アクセスカウント"
+      class="access-count"
+    />
+    <!-- ここまで -->
+
     <div class="grid-container">
       <div class="grid-item">
         <div class="store-label">【00092銀座本館】</div>
-        <iframe src="https://ppih-donki.github.io/floormap/00092" allowfullscreen></iframe>
+        <iframe
+          src="https://ppih-donki.github.io/floormap/00092"
+          allowfullscreen
+        ></iframe>
       </div>
       <div class="grid-item">
         <div class="store-label">【00278中洲店】</div>
-        <iframe src="https://ppih-donki.github.io/floormap/00278" allowfullscreen></iframe>
+        <iframe
+          src="https://ppih-donki.github.io/floormap/00278"
+          allowfullscreen
+        ></iframe>
       </div>
       <div class="grid-item">
         <div class="store-label">【00442渋谷本店】</div>
-        <iframe src="https://ppih-donki.github.io/floormap/00442" allowfullscreen></iframe>
+        <iframe
+          src="https://ppih-donki.github.io/floormap/00442"
+          allowfullscreen
+        ></iframe>
       </div>
       <div class="grid-item">
         <div class="store-label">【00555札幌狸小路本店】</div>
-        <iframe src="https://ppih-donki.github.io/floormap/00555" allowfullscreen></iframe>
+        <iframe
+          src="https://ppih-donki.github.io/floormap/00555"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   </main>
