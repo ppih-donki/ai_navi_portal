@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <ul>
         <li><a href="main.html">サービス概要</a></li>
         <li><a href="manual.html">マニュアル・データ</a></li>
-        <li><a href="map.html">フロアMAP画像</a></li>
+        <li><a href="map.html">ｱｸｾｽ数,ﾌﾛｱMAP画像</a></li>
         <li><a href="login.html" id="logoutBtn">ログアウト</a></li>
       </ul>
     </nav>
