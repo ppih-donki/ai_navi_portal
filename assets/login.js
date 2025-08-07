@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var userList = [
     { username: "92",  password: "Donki92"  },
     { username: "278", password: "Donki278" },
+    { username: "373", password: "Donki373" },
     { username: "442", password: "Donki442" },
     { username: "555", password: "Donki555" }
   ];
